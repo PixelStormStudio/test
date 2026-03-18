@@ -9,12 +9,6 @@
             "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/test/version_1.0.0/README.txt"
         },
         {
-            "name": "manifest.json",
-            "size": 13384,
-            "version": "1.0.0",
-            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/test/version_1.0.0/manifest.json"
-        },
-        {
             "name": "_scenes/root.tscn",
             "size": 101,
             "version": "1.0.0",
