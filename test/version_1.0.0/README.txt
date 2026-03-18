@@ -1,0 +1,1 @@
+testowanie zaawansowanego systemu automatycznego aktualizowanie aplikacji poprzez używanie github jak server do trzymania danych o folderach i plikach aplikacji.

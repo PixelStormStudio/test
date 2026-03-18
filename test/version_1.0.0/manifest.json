@@ -1,0 +1,72 @@
+{
+    "version": "1.0.0",
+    "min_version": "1.0.0",
+    "files": [
+        {
+            "name": "README.txt",
+            "size": 162,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/README.txt"
+        },
+        {
+            "name": "manifest.json",
+            "size": 13384,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/manifest.json"
+        },
+        {
+            "name": "_scenes/root.tscn",
+            "size": 101,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/_scenes/root.tscn"
+        },
+        {
+            "name": "_scenes/core/menu.tscn",
+            "size": 4566,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/_scenes/core/menu.tscn"
+        },
+        {
+            "name": "_scripts/core/control.gd",
+            "size": 8499,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/_scripts/core/control.gd"
+        },
+        {
+            "name": "_scripts/core/control.gd.uid",
+            "size": 20,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/_scripts/core/control.gd.uid"
+        },
+        {
+            "name": "audio/music/cave_theme_1.wav",
+            "size": 21772946,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/audio/music/cave_theme_1.wav"
+        },
+        {
+            "name": "audio/music/cave_theme_2.wav",
+            "size": 10838162,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/audio/music/cave_theme_2.wav"
+        },
+        {
+            "name": "audio/music/dungeon_theme_1.wav",
+            "size": 18473566,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/audio/music/dungeon_theme_1.wav"
+        },
+        {
+            "name": "audio/music/dungeon_theme_2.wav",
+            "size": 23092318,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/audio/music/dungeon_theme_2.wav"
+        },
+        {
+            "name": "audio/music/field_theme_1.wav",
+            "size": 14112146,
+            "version": "1.0.0",
+            "url": "https://raw.githubusercontent.com/PixelStormStudio/test/main/version_1.0.0/audio/music/field_theme_1.wav"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+[gd_scene format=3 uid="uid://c67nb3o6gmbba"]
+
+[ext_resource type="Script" uid="uid://bs61ee38obeap" path="res://_scripts/core/control.gd" id="1_n0dcu"]
+
+[node name="menu" type="Node2D" unique_id=110341961]
+metadata/_edit_vertical_guides_ = [-492.0]
+
+[node name="Gui" type="CanvasLayer" parent="." unique_id=1491787628]
+
+[node name="Control" type="Control" parent="Gui" unique_id=2116163734 node_paths=PackedStringArray("progress", "label", "speed_label", "version_label", "error_panel", "error_label", "retry_button")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n0dcu")
+progress = NodePath("MarginContainer/Panel/MarginContainer/VBoxContainer/ProgressBar")
+label = NodePath("MarginContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/Label")
+speed_label = NodePath("MarginContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer/speed_label")
+version_label = NodePath("MarginContainer/Panel/version_label")
+error_panel = NodePath("MarginContainer/error")
+error_label = NodePath("MarginContainer/error/VBoxContainer/Label")
+retry_button = NodePath("MarginContainer/error/VBoxContainer/Button")
+
+[node name="MarginContainer" type="MarginContainer" parent="Gui/Control" unique_id=40962438]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="Panel" type="Panel" parent="Gui/Control/MarginContainer" unique_id=1497807039]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Gui/Control/MarginContainer/Panel" unique_id=134786784]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Gui/Control/MarginContainer/Panel/MarginContainer" unique_id=566455002]
+layout_mode = 2
+alignment = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Gui/Control/MarginContainer/Panel/MarginContainer/VBoxContainer" unique_id=1591623928]
+layout_mode = 2
+alignment = 1
+
+[node name="speed_label" type="Label" parent="Gui/Control/MarginContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1985736057]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "9999"
+
+[node name="Label" type="Label" parent="Gui/Control/MarginContainer/Panel/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1005556298]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+text = "kkk"
+horizontal_alignment = 2
+
+[node name="ProgressBar" type="ProgressBar" parent="Gui/Control/MarginContainer/Panel/MarginContainer/VBoxContainer" unique_id=1579793828]
+custom_minimum_size = Vector2(500, 40)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button" type="Button" parent="Gui/Control/MarginContainer/Panel/MarginContainer/VBoxContainer" unique_id=2075281123]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_font_sizes/font_size = 20
+text = "DOWNOALD"
+
+[node name="version_label" type="Label" parent="Gui/Control/MarginContainer/Panel" unique_id=823017733]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="error" type="Panel" parent="Gui/Control/MarginContainer" unique_id=1451409493]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Gui/Control/MarginContainer/error" unique_id=1572033271]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = -17.5
+offset_right = 4.0
+offset_bottom = 17.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Gui/Control/MarginContainer/error/VBoxContainer" unique_id=780139301]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "99999999"
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="Gui/Control/MarginContainer/error/VBoxContainer" unique_id=2073531491]
+custom_minimum_size = Vector2(200, 100)
+layout_mode = 2
+text = "Retry"
